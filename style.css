@@ -1,0 +1,50 @@
+
+
+main {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 320px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text {
+    font-family: outfit;
+    text-align: center;
+}
+
+.heading {
+    font-weight: 700;
+}
+
+.description {
+    color: hsl(216, 15%, 48%);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+}
